@@ -1,6 +1,10 @@
 import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
+#pip uninstall protobuf -y
+#pip install protobuf==3.20.3
+# pip uninstall numpy -y
+#pip install numpy==1.26.4
 
 # Load Haar Cascade for face detection
 face_cascade = cv2.CascadeClassifier(
